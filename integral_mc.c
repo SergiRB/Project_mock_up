@@ -41,7 +41,11 @@ int main(void) {
 	integral *= (xf-xi)/(double)(n);
 	printf("  I = %f\n", integral);
 	printf("--------------------------------------------------\n");
+printf("Helloworld");
+
 }
+
+
 
 /* random number generator (a very basic one) */
 double random_generator() {
