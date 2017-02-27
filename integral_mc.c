@@ -28,20 +28,7 @@ int main(void) {
 /* limits of the integration */
 	xi = 0. ; xf = pi ;
 
-	printf("--------------------------------------------------\n");
-	printf("  Number of random numbers :  ");
-	scanf("%d", &n);  //scan how many random numbers we want to use
-/* begin with the loop : send random numbers to the integrand */
-	for (i = 0; i < n; i++) {
-		r = pi*random_generator();
-/* multiply by the maximum x given that random_generator() only goes
-  from 0 to 1 */
-		integral += integrand(r);
-	}
-	integral *= (xf-xi)/(double)(n);
-	printf("  I = %f\n", integral);
-	printf("--------------------------------------------------\n");
-	printf("Helloworld\n");
+	printf("Borrado :')'\n");
 
 }
 
