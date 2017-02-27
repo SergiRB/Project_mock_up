@@ -41,7 +41,7 @@ int main(void) {
 	integral *= (xf-xi)/(double)(n);
 	printf("  I = %f\n", integral);
 	printf("--------------------------------------------------\n");
-printf("Helloworld");
+	printf("Helloworld\n");
 
 }
 
